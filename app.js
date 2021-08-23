@@ -1,7 +1,6 @@
 //get all dependencies 
 const BLL = require('./lib/BLL');
 const mysql = require('mysql');
-const cTable = require('console.table');
 const inquirer = require('inquirer');
 const Questions = require('./lib/questions');
 
