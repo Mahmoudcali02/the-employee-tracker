@@ -1,13 +1,13 @@
 {
   "name": "the-employee-tracker",
   "version": "1.0.0",
-  "description": "an application used to track employee",
+  "description": "epmlyee tracker application",
   "main": "app.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Mahmoudcali02/the-employee-tracker#readme",
   "dependencies": {
-    "console.table": "^0.10.0",
     "inquirer": "^8.1.2",
     "mysql": "^2.18.1"
   }
