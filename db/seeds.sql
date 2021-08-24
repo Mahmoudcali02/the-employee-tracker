@@ -1,3 +1,4 @@
+
 use employee_db;
 insert into department (name) values 
 ("Human Resources"),

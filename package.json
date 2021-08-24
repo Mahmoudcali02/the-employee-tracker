@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Mahmoudcali02/the-employee-tracker#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "inquirer": "^8.1.2",
     "mysql": "^2.18.1"
   }

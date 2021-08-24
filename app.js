@@ -7,7 +7,7 @@ const Questions = require('./lib/questions');
 const myBLL = new BLL();
 const questions = new Questions();
 
-//welcome message and "loader"
+//the loader
 function welcome(){
     console.log("Welcome to Employee Tracker");
     console.log("Loading");
@@ -28,7 +28,7 @@ function welcome(){
         loadMainMenu();       
     }, endTime); 
 }
-//core application loop:
+//main application process:
 async function loadMainMenu(){
 
     await inquirer.prompt(questions.mainMenu)
@@ -85,7 +85,7 @@ async function viewEmployeesByManager(){
     }).then(async function(answer){
         switch (answer.choice){
         case "Cancel":
-            //go back to previous menu
+            // back to previous menu
             break;
         default:
             //get the right manager from the list
