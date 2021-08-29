@@ -13,9 +13,10 @@ Usage
 * Application is run by executing "node app.js" The user is brought to a main menu with a list of commands that can be executed by using the arrows. Some options have further choices and prompts to interact with the system.
 
 # Links
-Link to a demo video: 
+Link to the repository: https://github.com/Mahmoudcali02/the-employee-tracker
 
-Link to the repository:
+
+Link to a demo video: https://drive.google.com/file/d/1nQyomj_KaaGxWQFMjNgRd6hHMRmwu7dL/view?usp=sharing
 
 # Screenshots
 ![](images/screenshot-1.JPG)
